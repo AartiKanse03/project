@@ -3,7 +3,7 @@ import './Footer.css'; // Ensure this file includes footer styles
 
 function Footer() {
   return (
-    <footer className="sticky-footer">
+    <footer className="sticky-footer"> {/* or use "footer" if you renamed the class */}
       <p>&copy; 2024 Your Company. All rights reserved.</p>
       <div className="social-media-icons">
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
