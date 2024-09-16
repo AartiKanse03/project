@@ -1,0 +1,35 @@
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .sticky-header .logo img {
+    width: 100px;
+  }
+  
+  .nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links ul li {
+    display: inline;
+  }
+  
+  .nav-links ul li a {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nav-links ul li a:hover {
+    color: #ffcc00;
+  }
+  

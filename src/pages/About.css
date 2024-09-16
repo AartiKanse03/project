@@ -1,0 +1,68 @@
+.about-page {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Base Section Style */
+  .section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  
+  /* Image on the Left */
+  .image-left {
+    flex-direction: row;
+  }
+  
+  .section .image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .section .image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .section .text {
+    flex: 1;
+  }
+  
+  .section .text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .section .text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  /* Info Box */
+  .info-box {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-box h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .info-box p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
