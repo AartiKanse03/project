@@ -29,6 +29,13 @@
   text-align: center;
   padding: 15px;
   box-sizing: border-box;
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for product cards */
+.product-section:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  transform: translateY(-5px); /* Slightly lift the card on hover */
 }
 
 /* Set a fixed height for the images and make them cover the area properly */
